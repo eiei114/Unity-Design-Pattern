@@ -10,7 +10,7 @@
 # Contents
 ## I、Gang of Four Patterns in Unity
 ### Behavioral Patterns
-* [Command Pattern ]
+* [Command Pattern 命令模式]
 * [State Pattern 状态模式]
 * [Observer Pattern 观察者模式]
 * [Chain of Responsibility Pattern 责任链模式]
