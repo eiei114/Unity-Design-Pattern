@@ -10,7 +10,7 @@
 # Contents
 ## I、Gang of Four Patterns in Unity
 ### Behavioral Patterns
-* [Command Pattern 命令模式]
+* [Command Pattern ]
 * [State Pattern 状态模式]
 * [Observer Pattern 观察者模式]
 * [Chain of Responsibility Pattern 责任链模式]
@@ -66,43 +66,43 @@
 * [Head First Design Patterns]
 * [设计模式与游戏完美开发]
 
-[State Pattern 状态模式]:https://github.com/QianMo/Unity3D-Design-Patterns/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
-[Command Pattern 命令模式]: https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
-[Observer Pattern 观察者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Observer%20Pattern
-[Chain of Responsibility Pattern 责任链模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Chain%20of%20Responsibility%20Pattern
-[Mediator Pattern 中介者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Mediator%20Pattern
-[Interpreter Pattern 解释器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Interpreter%20Pattern
-[Iterator Pattern 迭代器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Iterator%20Pattern
-[Memento Pattern 备忘录模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Memento%20Pattern
-[Strategy Pattern 策略模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Strategy%20Pattern
-[Template Method Pattern 模板方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Template%20Method%20Pattern
-[Visitor Pattern 访问者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Visitor%20Pattern
-[Adapter Pattern 适配器模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Adapter%20Pattern
-[Bridge Pattern 桥接模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Bridge%20Pattern
-[Composite Pattern 组合模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Composite%20Pattern
-[Decorator Pattern 装饰模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Decorator%20Pattern
-[Facade Pattern 外观模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Facade%20Pattern
-[Flyweight Pattern 享元模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Flyweight%20Pattern
-[Proxy Pattern 代理模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Proxy%20Pattern
-[Abstract Factory Pattern 抽象工厂模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Abstract%20Factory%20Pattern
-[Builder Pattern 建造者模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Builder%20Pattern
-[Factory Method Pattern 工厂方法模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Factory%20Method%20Pattern
-[Prototype Pattern 原型模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Prototype%20Pattern
-[Singleton Pattern 单例模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Singleton%20Pattern
+[State Pattern 状态模式]:https://github.com/eiei114/Unity3D-Design-Patterns/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
+[Command Pattern 命令模式]: https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
+[Observer Pattern 观察者模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Observer%20Pattern
+[Chain of Responsibility Pattern 责任链模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Chain%20of%20Responsibility%20Pattern
+[Mediator Pattern 中介者模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Mediator%20Pattern
+[Interpreter Pattern 解释器模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Interpreter%20Pattern
+[Iterator Pattern 迭代器模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Iterator%20Pattern
+[Memento Pattern 备忘录模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Memento%20Pattern
+[Strategy Pattern 策略模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Strategy%20Pattern
+[Template Method Pattern 模板方法模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Template%20Method%20Pattern
+[Visitor Pattern 访问者模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Visitor%20Pattern
+[Adapter Pattern 适配器模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Adapter%20Pattern
+[Bridge Pattern 桥接模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Bridge%20Pattern
+[Composite Pattern 组合模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Composite%20Pattern
+[Decorator Pattern 装饰模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Decorator%20Pattern
+[Facade Pattern 外观模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Facade%20Pattern
+[Flyweight Pattern 享元模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Flyweight%20Pattern
+[Proxy Pattern 代理模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Structural%20Patterns/Proxy%20Pattern
+[Abstract Factory Pattern 抽象工厂模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Abstract%20Factory%20Pattern
+[Builder Pattern 建造者模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Builder%20Pattern
+[Factory Method Pattern 工厂方法模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Factory%20Method%20Pattern
+[Prototype Pattern 原型模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Prototype%20Pattern
+[Singleton Pattern 单例模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Creational%20Patterns/Singleton%20Pattern
 
-[Subclass Sandbox Pattern 子类沙盒模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/SubclassSandbox%20Pattern
-[Type Object Pattern 类型对象模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Type%20Object%20Pattern
-[Component Pattern 组件模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Component%20Pattern
-[Event Queue Pattern 事件队列模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Event%20Queue%20Pattern
-[Game Loop Pattern 游戏循环模式]:https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Game%20Loop%20Pattern
+[Subclass Sandbox Pattern 子类沙盒模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/SubclassSandbox%20Pattern
+[Type Object Pattern 类型对象模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Type%20Object%20Pattern
+[Component Pattern 组件模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Component%20Pattern
+[Event Queue Pattern 事件队列模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Event%20Queue%20Pattern
+[Game Loop Pattern 游戏循环模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Game%20Loop%20Pattern
 [Service Locator Pattern 服务定位器模式]:
-https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Service%20Locator%20Pattern
+https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Service%20Locator%20Pattern
 [Data Locality Pattern 数据局部性模式]:
-https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Data%20Locality%20Pattern
+https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Data%20Locality%20Pattern
 [Dirty Flag Pattern 脏标记模式]:
-https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Dirty%20Flag%20Pattern
+https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Dirty%20Flag%20Pattern
 [Object Pool Pattern 对象池模式]:
-https://github.com/QianMo/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Object%20Pool%20Pattern
+https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Game%20Programming%20Patterns/Object%20Pool%20Pattern
 
 
 
