@@ -1,24 +1,23 @@
 # Mediator Pattern 中介者模式
-## Definition
+## 定義
 
-Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
-<br>用一个中介对象封装一系列的对象交互，中介者使各对象不需要显示地相互作用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+オブジェクトの集合がどのように相互作用するかをカプセル化したオブジェクトを定義します。Mediatorは、オブジェクトが明示的にお互いを参照しないようにすることで疎結合を促進し、オブジェクトの相互作用を独立して変化させることができます。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/mediator.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りである。
 
-### Mediator  (IChatroom)
-* defines an interface for communicating with Colleague objects
+### メディエーター(IChatroom)
+* 同僚オブジェクトと通信するためのインターフェイスを定義します。
 
-### ConcreteMediator  (Chatroom)
-* implements cooperative behavior by coordinating Colleague objects
-* knows and maintains its colleagues
+### ConcreteMediator (チャットルーム)
+* 同僚オブジェクトを調整することで協調的な振る舞いを実装します。
+* 同僚を把握・管理する
 
-### Colleague classes  (Participant)
-* each Colleague class knows its Mediator object
-* each colleague communicates with its mediator whenever it would have otherwise communicated with another colleague
+### Colleagueクラス(Participant)
+* 各Colleagueクラスは、そのMediatorオブジェクトを知っています。
+* 各Colleagueは、他のColleagueと通信する場合は、必ずそのMediatorと通信を行います。
 

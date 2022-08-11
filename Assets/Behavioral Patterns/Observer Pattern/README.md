@@ -1,29 +1,28 @@
 # Observer Pattern 观察者模式
-## Definition
+## 定義
 
-Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
-<br>定义对象间一种一对多的依赖关系，使得每当一个对象改变状态，则所有依赖于它的对象都会得到通知并被自动更新。
+オブジェクト間の一対多の依存関係を定義し、あるオブジェクトが状態を変更すると、その依存関係すべてが通知され、自動的に更新されるようにします。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/observer.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは次のとおりです。
 
-### Subject  (Stock)
-* knows its observers. Any number of Observer objects may observe a subject
-* provides an interface for attaching and detaching Observer objects.
+## Subject (株式)
+* オブザーバーを知っている。任意の数のObserverオブジェクトがSubjectを観察することができる。
+* Observerオブジェクトをアタッチ、デタッチするためのインターフェイスを提供する。
 
-### ConcreteSubject  (IBM)
-* stores state of interest to ConcreteObserver
-* sends a notification to its observers when its state changes
+### ConcreteSubject (IBM)
+* ConcreteObserverが関心を持つ状態を保存する。
+* 状態が変化すると、Observerに通知を送る。
 
-### Observer  (IInvestor)
-* defines an updating interface for objects that should be notified of changes in a subject.
+### オブザーバ(IInvestor)
+* Subjectの変更を通知されるべきオブジェクトのための更新インターフェイスを定義しています。
 
-### ConcreteObserver  (Investor)
-* maintains a reference to a ConcreteSubject object
-* stores state that should stay consistent with the subject's
-* implements the Observer updating interface to keep its state consistent with the subject's
+### ConcreteObserver (投資家)
+* ConcreteSubjectオブジェクトへの参照を保持する。
+* サブジェクトと一貫性を保つべき状態を保存します。
+* オブザーバの更新インタフェースを実装し、サブジェクトの状態との一貫性を保つ。
 

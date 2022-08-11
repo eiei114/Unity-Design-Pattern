@@ -1,30 +1,29 @@
 # Abstract Factory Pattern 抽象工厂模式
-## Definition
+## 定義
 
-Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-<br>提供一个接口，用于创建相关或者依赖对象的家族，而不需要指定具体的实现类。
+関連・依存するオブジェクトのファミリーを，その具象クラスを指定せずに作成するためのインタフェースを提供する．
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/abstract.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加するクラスとオブジェクトは以下の通りである。
 
-### AbstractFactory  (ContinentFactory)
-* declares an interface for operations that create abstract products
+### AbstractFactory (ContinentFactory)
+* 抽象的な製品を作成する操作のためのインターフェイスを宣言しています。
 
-### ConcreteFactory   (AfricaFactory, AmericaFactory)
-* implements the operations to create concrete product objects
+### ConcreteFactory（AfricaFactory、AmericaFactory）。
+* 具体的な製品オブジェクトを作成するための操作を実装しています。
 
-### AbstractProduct   (Herbivore, Carnivore)
-* declares an interface for a type of product object
+### AbstractProduct (Herbivore, Carnivore) * 抽象的な製品を作成する操作のインターフェイスを宣言しています。
+* 商品オブジェクトの種類を表すインタフェースを宣言しています。
 
-### Product  (Wildebeest, Lion, Bison, Wolf)
-* defines a product object to be created by the corresponding concrete factory
-* implements the AbstractProduct interface
+### Product (Wildebeest、Lion、Bison、Wolf)。
+* 商品オブジェクトを定義し、対応する具象ファクトリーで生成する。
+* AbstractProduct インターフェースを実装しています。
 
-### Client  (AnimalWorld)
-* uses interfaces declared by AbstractFactory and AbstractProduct classes
+### クライアント(AnimalWorld)
+* AbstractFactoryクラスとAbstractProductクラスで宣言されたインターフェイスを使用します。
 
 

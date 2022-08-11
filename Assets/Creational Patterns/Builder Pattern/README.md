@@ -1,28 +1,28 @@
 # Builder Pattern 建造者模式
-## Definition
+## 定義
 
-Separate the construction of a complex object from its representation so that the same construction process can create different representations.
-<br>将一个复杂对象的构造与它的表示分离，使同样的构建过程可以创建不同的表示，这样的设计模式被称为建造者模式。
+複雑なオブジェクトの構築をその表現から分離し、同じ構築プロセスで異なる表現を作成できるようにすること。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/builder.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りである。
 
-### Builder  (VehicleBuilder)
-* specifies an abstract interface for creating parts of a Product object
+### ビルダー(VehicleBuilder)
+* Product オブジェクトのパーツを作成するための抽象的なインターフェイスを指定します。
 
-### ConcreteBuilder  (MotorCycleBuilder, CarBuilder, ScooterBuilder)
-* constructs and assembles parts of the product by implementing the Builder interface
-* defines and keeps track of the representation it creates
-* provides an interface for retrieving the product
+### ConcreteBuilder (MotorCycleBuilder, CarBuilder, ScooterBuilder) * プロダクトのパーツを作成するための抽象的なインターフェースを指定する。
+* Builder インタフェースを実装することで、プロダクトのパーツを構築し、組み立てる。
+* 作成した表現を定義し、追跡する。
+* 製品を取得するためのインターフェイスを提供する
 
-### Director  (Shop)
-* constructs an object using the Builder interface
+### ディレクター(Shop)
+* ビルダーインターフェースを用いてオブジェクトを構築する。
 
-### Product  (Vehicle)
-* represents the complex object under construction. ConcreteBuilder builds the product's internal representation and defines the process by which it's assembled
-* includes classes that define the constituent parts, including interfaces for assembling the parts into the final result
+### 製品(ビークル)
+* 構築中の複合オブジェクトを表現する。ConcreteBuilderは、プロダクトの内部表現を構築し、プロダクトが組み立てられるプロセスを定義する。
+* 構成部品を定義するクラスと、部品を組み立てて最終的な結果を得るためのインターフェイスを含む
+
 

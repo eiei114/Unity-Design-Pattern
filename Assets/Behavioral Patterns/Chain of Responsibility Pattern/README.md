@@ -1,25 +1,23 @@
 # Chain of Responsibility Pattern 责任链模式
-## Definition
+## 定義
 
-Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
-<br>使多个对象都有机会处理请求，从而避免了请求的发送者和接受者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有对象处理它为止。
+複数のオブジェクトにリクエストを処理する機会を与えることで、 リクエストの送信者と受信者の結合を避けることができます。受信側のオブジェクトをチェーン化し、あるオブジェクトが処理するまでリクエストをチェーンに沿って渡します。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/chain.gif)
 
 
-## Participants
+## 対象者
 
-The classes and objects participating in this pattern are:
+このパターンに参加するクラスとオブジェクトは次のとおりです:
 
-### Handler   (Approver)
-* defines an interface for handling the requests
-* (optional) implements the successor link
+### ハンドラ (承認者)
+* リクエストを処理するためのインターフェイスを定義する。
+* (オプション) 後継者リンクを実装します。
 
-### ConcreteHandler   (Director, VicePresident, President)
-* handles requests it is responsible for
-* can access its successor
-* if the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor
+### ConcreteHandler (Director, VicePresident, President)
+* 担当するリクエストを処理する
+* 後継者にアクセスできる
+* ConcreteHandlerがリクエストを処理できる場合は処理し、そうでない場合は 後継者に転送する。
 
-### Client   (ChainApp)
-* initiates the request to a ConcreteHandler object on the chain
-
+### クライアント(ChainApp)
+* チェーン上のConcreteHandlerオブジェクトにリクエストを開始する。

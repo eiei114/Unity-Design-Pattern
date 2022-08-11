@@ -1,22 +1,21 @@
 # Facade Pattern 外观模式
-## Definition
+## 定義
 
-Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.
-<br>要求一个子系统的外部与其内部的通信必须通过一个统一的对象进行。外观模式提供一个高层次的接口，使得子系统更易于使用。
+サブシステム内の一連のインタフェースに統一されたインタフェースを提供する。ファサードは、サブシステムを使いやすくするための上位のインターフェイスを定義する。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/facade.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは次のとおりです。
 
-### Facade   (MortgageApplication)
-* knows which subsystem classes are responsible for a request.
-* delegates client requests to appropriate subsystem objects.
+### ファサード (MortgageApplication)
+* どのサブシステムクラスがリクエストに責任を持つかを知っている。
+* クライアントリクエストを適切なサブシステムオブジェクトに委譲する。
 
-### Subsystem classes   (Bank, Credit, Loan)
-* implement subsystem functionality.
-* handle work assigned by the Facade object.
-* have no knowledge of the facade and keep no reference to it.
+### サブシステムクラス (Bank, Credit, Loan)
+* サブシステムの機能性を実装する。
+* ファサードオブジェクトから割り当てられた作業を処理する。
+* ファサードに関する知識はなく、ファサードへの参照も保持しない。
 

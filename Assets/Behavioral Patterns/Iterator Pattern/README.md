@@ -1,26 +1,26 @@
 # Iterator Pattern 迭代器模式
-## Definition
+## 定義
 
-Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-<br>提供一种方法访问一个容器对象中各个元素，而又不需暴露该对象的内部细节。
-
+集約オブジェクトの要素に順次アクセスする方法を提供し、その基礎となる表現を公開しない。
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/iterator.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加するクラスとオブジェクトは次のとおりです。
 
-### Iterator  (AbstractIterator)
-* defines an interface for accessing and traversing elements.
+### Iterator（AbstractIterator）。
+* 要素にアクセスし、トラバースするためのインターフェイスを定義しています。
 
-### ConcreteIterator  (Iterator)
-* implements the Iterator interface.
-* keeps track of the current position in the traversal of the aggregate.
+### ConcreteIterator (Iterator)。
+* Iteratorインターフェイスを実装しています。
+  ConcreteIterator (Iterator) * Iteratorインタフェースを実装しています * 集合体の走査における現在の位置を記録します。
 
-### Aggregate  (AbstractCollection)
-* defines an interface for creating an Iterator object
+### Aggregate (AbstractCollection)：集合体。
+* Iterator オブジェクトを作成するためのインターフェイスを定義しています。
 
-### ConcreteAggregate  (Collection)
-* implements the Iterator creation interface to return an instance of the proper ConcreteIterator
+### ConcreteAggregate (コレクション)
+* Iterator生成インタフェースを実装し、適切なConcreteIteratorのインスタンスを返します。
+
+www.DeepL.com/Translator（無料版）で翻訳しました。
 

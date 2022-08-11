@@ -1,28 +1,27 @@
 # Command Pattern 命令模式
-## Definition
-Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
-<br>命令模式将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化其他对象，同时支持可撤消的操作。
+## 定義
+リクエストをオブジェクトとしてカプセル化することで、異なるリクエストを持つクライアントをパラメータ化したり、リクエストをキューに入れたり、ログに記録したり、取り消し可能な操作をサポートしたりすることができます。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/command.gif) 
 
-## Participants
-The classes and objects participating in this pattern are:
+## 参加者
+このパターンに参加するクラスとオブジェクトは次のとおりです。
 
-### Command
-* declares an interface for executing an operation
+### コマンド
+* 操作を実行するためのインターフェイスを宣言する。
 
 ### ConcreteCommand
-* defines a binding between a Receiver object and an action
-* implements Execute by invoking the corresponding operation(s) on Receiver
+* Receiverオブジェクトとアクションの間のバインディングを定義する。
+* Receiverに対応する操作を呼び出すことで、Executeを実装している。
 
-### Client 
-* creates a ConcreteCommand object and sets its receiver
+### クライアント
+* ConcreteCommandオブジェクトを生成し、Receiverを設定する。
 
-### Invoker
-* asks the command to carry out the request
+### インヴォーカー
+* コマンドに実行を依頼する
 
-### Receiver
-* knows how to perform the operations associated with carrying out the request.
+### レシーバ
+* リクエストの実行に関連する操作の方法を知っている。
 
 
 

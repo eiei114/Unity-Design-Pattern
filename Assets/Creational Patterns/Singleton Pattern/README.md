@@ -1,17 +1,16 @@
 # Singleton Pattern 单例模式
-## Definition
+## 定義
 
-Ensure a class has only one instance and provide a global point of access to it.
-<br>确保某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例。
+クラスが1つのインスタンスしか持たないことを保証し、そのインスタンスへのグローバルなアクセスポイントを提供します。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/singleton.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りである。
 
-### Singleton   (LoadBalancer)
-* defines an Instance operation that lets clients access its unique instance. Instance is a class operation.
-* responsible for creating and maintaining its own unique instance.
+### シングルトン (LoadBalancer)
+* クライアントがそのユニークなインスタンスにアクセスすることを可能にする Instance オペレーションを定義する。Instanceはクラスの操作である。
+* インスタンスはクラス操作であり、それ自身のユニークなインスタンスの作成と維持に責任がある。
 

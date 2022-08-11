@@ -1,22 +1,22 @@
 # Prototype Pattern 原型模式
-## Definition
+## 定義
 
-Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
-<br>用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+プロトタイプインスタンスを用いて作成するオブジェクトの種類を指定し、このプロトタイプをコピーして新しいオブジェクトを作成します。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/prototype.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りである。
 
-### Prototype  (ColorPrototype)
-* declares an interface for cloning itself
+### プロトタイプ(ColorPrototype)
+* 自分自身を複製するためのインターフェイスを宣言する
 
-### ConcretePrototype  (Color)
-* implements an operation for cloning itself
+### ConcretePrototype (Color)。
+* 自分自身のクローンを作成するための操作を実装する
 
-### Client  (ColorManager)
-* creates a new object by asking a prototype to clone itself
+### クライアント(ColorManager)
+* プロトタイプに自分自身のクローン作成を依頼し、新しいオブジェクトを作成する。
+
 

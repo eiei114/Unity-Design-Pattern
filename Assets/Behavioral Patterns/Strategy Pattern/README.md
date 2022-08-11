@@ -1,24 +1,23 @@
 # Strategy Pattern 策略模式
-## Definition
+## 定義
 
-Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-<br>定义一组算法，将每个算法都封装起来，并且使它们之间可以互换
+アルゴリズムのファミリーを定義し、それぞれをカプセル化し、それらを交換可能にする。ストラテジーは、アルゴリズムを使用するクライアントから独立して変化させることができる。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/strategy.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りである。
 
-### Strategy  (SortStrategy)
-* declares an interface common to all supported algorithms. Context uses this interface to call the algorithm defined by a ConcreteStrategy
+### ストラテジー (SortStrategy)
+* サポートされるすべてのアルゴリズムに共通するインターフェースを宣言する。Contextはこのインターフェイスを利用して、ConcreteStrategyで定義されたアルゴリズムを呼び出す。
 
-### ConcreteStrategy  (QuickSort, ShellSort, MergeSort)
-* implements the algorithm using the Strategy interface
+### ConcreteStrategy (QuickSort、ShellSort、MergeSort)。
+* アルゴリズムをStrategyインターフェースで実装
 
-### Context  (SortedList)
-* is configured with a ConcreteStrategy object
-* maintains a reference to a Strategy object
-* may define an interface that lets Strategy access its data.
+### Context (SortedList)
+* ConcreteStrategyオブジェクトで構成される。
+* Strategyオブジェクトへのリファレンスを保持する。
+* Strategyがデータにアクセスするためのインターフェイスを定義することができる。
 

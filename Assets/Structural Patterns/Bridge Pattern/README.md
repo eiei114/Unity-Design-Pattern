@@ -1,26 +1,25 @@
-# Bridge Pattern 桥接模式
-## Definition
+# Bridge Pattern 
+## 定義
 
-Decouple an abstraction from its implementation so that the two can vary independently.
-<br>将抽象和实现解耦，使得两者可以独立地变化。
+抽象化と実装を切り離し、両者が独立して変化できるようにすること。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/bridge.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りです。
 
-### Abstraction   (BusinessObject)
-* defines the abstraction's interface.
-* maintains a reference to an object of type Implementor.
+### 抽象化 (BusinessObject)
+* 抽象化のインターフェイスを定義する。
+* 実装者タイプのオブジェクトへの参照を保持します。
 
-### RefinedAbstraction   (CustomersBusinessObject)
-* extends the interface defined by Abstraction.
+### RefinedAbstraction (CustomersBusinessObject) * 抽象化のインターフェイスを定義する。
+* Abstractionで定義されたインターフェイスを拡張します。
 
-### Implementor   (DataObject)
-* defines the interface for implementation classes. This interface doesn't have to correspond exactly to Abstraction's interface; in fact the two interfaces can be quite different. Typically the Implementation interface provides only primitive operations, and Abstraction defines higher-level operations based on these primitives.
+### Implementor (DataObject)
+* 実装クラスのためのインターフェイスを定義しています。このインターフェイスはAbstractionのインターフェイスと正確に対応する必要はなく、実際には2つのインターフェイスはかなり異なる場合があります。通常、Implementationインターフェイスはプリミティブな操作のみを提供し、 Abstractionはこれらのプリミティブに基づいたより高度な操作を定義する。
 
-### ConcreteImplementor   (CustomersDataObject)
-* implements the Implementor interface and defines its concrete implementation.
+### ConcreteImplementor (CustomersDataObject) は、CustomersDataObject を実装したものです。
+* Implementorインターフェイスを実装し、その具体的な実装を定義しています。
 

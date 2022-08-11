@@ -1,28 +1,27 @@
-# Proxy Pattern 代理模式
-## Definition
+# Proxy Pattern 
+## 定義
 
-Provide a surrogate or placeholder for another object to control access to it.
-<br>为其他对象提供一种代理以控制对这个对象的访问。
+他のオブジェクトへのアクセスを制御するために、そのオブジェクトのサロゲートまたはプレースホルダーを提供する。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/proxy.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りです。
 
-### Proxy   (MathProxy)
-* maintains a reference that lets the proxy access the real subject. Proxy may refer to a Subject if the RealSubject and Subject interfaces are the same.
-* provides an interface identical to Subject's so that a proxy can be substituted for for the real subject.
-* controls access to the real subject and may be responsible for creating and deleting it.
-* other responsibilites depend on the kind of proxy:
-	* `remote proxies` are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space.
-	* `virtual proxies` may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images's extent.
-	* `protection proxies` check that the caller has the access permissions required to perform a request.
+### プロキシ(MathProxy)
+* プロキシが実サブジェクトにアクセスできるようにするための参照を保持します。RealSubjectとSubjectのインタフェースが同じであれば、ProxyはSubjectを参照することができます。
+* RealSubjectとSubjectのインタフェースが同じであれば，ProxyはSubjectを参照することができます．
+* 実サブジェクトへのアクセスを制御し、その生成と削除を担当することができる。
+* その他の責務はプロキシの種類に依存します。
+	* `リモートプロキシ`は、リクエストとその引数をエンコードし、エンコー ドされたリクエストを別のアドレス空間にある本当のサブジェクトに送る責任を 負う。
+	* `仮想プロキシ` は実際の対象に関する追加情報をキャッシュして、アクセスを先延ばしにすることができます。例えば、MotivationのImageProxyは実画像の範囲をキャッシュしています。
+	* `protection proxies` は、呼び出し元がリクエストの実行に必要なアクセス権限を持っているかどうかをチェックします。
 
-### Subject   (IMath)
-* defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
+### 主題(IMath)
+* RealSubject と Proxy の共通インターフェースを定義しています。
 
-### RealSubject   (Math)
-* defines the real object that the proxy represents.
+### RealSubject (Math)
+* プロキシが表現する実オブジェクトを定義します。
 

@@ -1,25 +1,24 @@
 # Memento Pattern 备忘录模式
-## Definition
+## 定義
 
-Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
-<br>在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到原先保存的状态。
+カプセル化に違反することなく、オブジェクトの内部状態をキャプチャして外部化し、後でこの状態に戻すことができるようにすること。
 
 ![](https://github.com/QianMo/Unity-Design-Pattern/blob/master/UML_Picture/memento.gif)
 
 
-## Participants
+## 参加者
 
-The classes and objects participating in this pattern are:
+このパターンに参加しているクラスとオブジェクトは以下の通りです。
 
-### Memento  (Memento)
-* stores internal state of the Originator object. The memento may store as much or as little of the originator's internal state as necessary at its originator's discretion.
-* protect against access by objects of other than the originator. Mementos have effectively two interfaces. Caretaker sees a narrow interface to the Memento -- it can only pass the memento to the other objects. Originator, in contrast, sees a wide interface, one that lets it access all the data necessary to restore itself to its previous state. Ideally, only the originator that produces the memento would be permitted to access the memento's internal state.
+### メメント(Memento)
+* Originatorオブジェクトの内部状態を格納する。メメントは、オリジネーターの内部状態を、オリジネーターの裁量で必要なだけ保存することができます。
+* Originator以外のオブジェクトによるアクセスから保護します。メメントには事実上2つのインターフェイスがあります。Caretakerはメメントに対する狭いインターフェイスを見ています -- メメントを他のオブジェクトに渡すことしかできません。一方、オリジネーターは広いインターフェースを持っており、自分自身を以前の状態に戻すのに必要なすべてのデータにアクセスすることができます。理想的には、メメントを生成したオリジネーターだけがメメントの内部状態にアクセスすることができます。
 
-### Originator  (SalesProspect)
-* creates a memento containing a snapshot of its current internal state.
-* uses the memento to restore its internal state
+### オリジネーター (SalesProspect)
+* 現在の内部状態のスナップショットを含むメメントを作成します。
+* その内部状態を復元するためにメメントを使用します。
 
-### Caretaker  (Caretaker)
-* is responsible for the memento's safekeeping
-* never operates on or examines the contents of a memento.
+### 管理者（Caretaker)
+* メメントを安全に保管する責任がある
+* 決してメメントを操作したり、メメントの中身を調べたりしない。
 
