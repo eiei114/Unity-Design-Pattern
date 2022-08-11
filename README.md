@@ -66,7 +66,7 @@
 * [Head First Design Patterns]
 * [设计模式与游戏完美开发]
 
-[State Pattern 状态模式]:https://github.com/eiei114/Unity3D-Design-Patterns/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
+[State Pattern 状态模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/State%20Pattern
 [Command Pattern 命令模式]: https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Command%20Pattern
 [Observer Pattern 观察者模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Observer%20Pattern
 [Chain of Responsibility Pattern 责任链模式]:https://github.com/eiei114/Unity-Design-Pattern/tree/master/Assets/Behavioral%20Patterns/Chain%20of%20Responsibility%20Pattern
